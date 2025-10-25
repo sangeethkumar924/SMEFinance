@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+--brand: #0ea5a3;
+}
+/* small global polish */
+html,body,#root{
+  height:100%;
+}
+body{
+background-color:var(--tw-bg-opacity, 1);
+}
+/* simple utility to keep app looking professional */
+.card{
+@apply bg-white rounded-2xl shadow p-4;
+}
